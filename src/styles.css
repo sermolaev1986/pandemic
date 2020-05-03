@@ -1,1 +1,74 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: darkslategray;
+}
+
+.world-map {
+  width: 100%;
+}
+
+.circle {
+}
+
+.circle-red {
+  fill: deeppink;
+}
+
+.circle-blue {
+  fill: aqua;
+}
+
+.circle-yellow {
+  fill: yellow;
+}
+
+.circle-green {
+  fill: lime;
+}
+
+.circle:hover {
+  fill: red;
+}
+
+.world-map-container {
+  width:100%;
+  height:100%;
+}
+
+path:hover {
+  fill: blueviolet;
+}
+
+.city-text {
+  font-size: small;
+}
+
+.city-text-red {
+  fill: deeppink;
+}
+
+.city-text-blue {
+  fill: aqua;
+}
+
+.city-text-green {
+  fill: lime;
+}
+
+.city-text-yellow {
+  fill: yellow;
+}
+
+.line {
+  stroke: white;
+}
+
+.line:hover {
+  stroke: magenta;
+}
